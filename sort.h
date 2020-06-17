@@ -32,5 +32,8 @@ void quick_sort(int *array, size_t size);
 int partition(int *array, size_t size, int low, int high);
 void lomuto(int *array, size_t size, int low, int high);
 void shell_sort(int *array, size_t size);
+void cocktail_sort_list(listint_t **list);
+listint_t *swap_nodes(listint_t *node, listint_t **list);
+void counting_sort(int *array, size_t size);
 
 #endif
