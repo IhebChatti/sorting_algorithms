@@ -40,4 +40,6 @@ void counting_sort(int *array, size_t size)
 		array[j] = cpy[j];
 		j++;
 	}
+	free(cpy);
+	free(count);
 }
